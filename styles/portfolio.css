@@ -1,0 +1,51 @@
+/* Common Shared Styles */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+/* Navigation Style */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    color: var(--dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* All List item comes in the same line */
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+/* All li items lose the bullet */
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+ 
