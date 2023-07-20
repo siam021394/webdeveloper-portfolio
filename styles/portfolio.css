@@ -20,6 +20,7 @@ body {
 /* Navigation Style */
 nav {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -48,4 +49,5 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
- 
+
+/* header relaed styles */
