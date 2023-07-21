@@ -28,11 +28,11 @@ body {
 .section-description {
     color: var(--dark-03, #757575);
     text-align: center;
-    
+
     font-size: 18px;
-    
+
     font-weight: 400;
-    
+
     /* 166.667% */
 }
 
@@ -139,6 +139,34 @@ main {
     text-align: center;
 }
 
+/* what-i-do styles */
 #what-i-do-description {
     padding: 30px 150px;
+}
+
+.skill {
+    padding: 30 px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-description {
+    color: #757575;
+}
+
+/* Resume Section Styles */
+
+.resume-column-title {
+    color: var(--dark-02, #474747);
+    
+    font-size: 30px;
+    
+    font-weight: 700;
+    
 }
